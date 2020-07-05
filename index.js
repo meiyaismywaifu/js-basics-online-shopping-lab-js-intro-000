@@ -38,6 +38,7 @@ function viewCart() {
     for (var i = 0; i < cart.length; i++) { // AAAAAAAAAAAAAAAA
       //objInternal = cart[i];
       //stringInternal = stringInternal + objInternal.itemName + "at $" + objInternal.itemPrice;
+      // oh they want the ${} verion. okay. fine.
       stringInternal = stringInternal + `${cart[i].itemName} at $ ${cart[i].itemPrice}`;
     }
   }

@@ -80,6 +80,7 @@ function removeFromCart(item) {
   // return `CART LENGTH IS --- --- ${cart.length}`;
   //  says cart length is 0. what's going on here.
   // errors not helping at all.
+  // apparently using "===" everywhere causes cart[i].itemName to be undefined.
 
   for (var i = 0; i < cart.length; i++){ // AAAAAAAAAAAAAAAAAAAAa
     if (cart[i].itemName = item){

@@ -75,7 +75,19 @@ function total() {
 }
 
 function removeFromCart(item) {
+  // check each object for a match. if no match, say no match. if match, remove.
+  var numInternal;
 
+  for (){
+    
+  }
+  if (typeof numInternal != "undefined"){ // if the object was found
+
+    return cart;
+  }
+  else {
+    return "That item is not in your cart";
+  }
 }
 
 function placeOrder(cardNumber) {

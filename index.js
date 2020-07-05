@@ -77,6 +77,7 @@ function total() {
 function removeFromCart(item) {
   // check each object for a match. if no match, say no match. if match, remove.
   var numInternal;
+  // console.log and even return refuses to tell me what's in the cart in this method.
 
   for (var i = 0; i < cart.length; i++){ // AAAAAAAAAAAAAAAAAAAAa
     if (cart[i].itemName === item){

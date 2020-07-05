@@ -84,14 +84,16 @@ function removeFromCart(item) {
       break
     }
   }
-  if (typeof numInternal != "undefined"){ // if the object was found
+  return "That item is not in your cart"
+  
+  /*if (typeof numInternal != "undefined"){ // if the object was found
     var posBefore = numInternal - 1;
     var posAfter = numInternal + 1;
     cart = [...cart.slice(0,posBefore), ...cart.slice(posAfter)];
     return cart;
   }
   else {
-    return "That item is not in your cart";
+    return "That item is not in your cart";*/
   }
 }
 

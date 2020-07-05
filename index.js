@@ -95,8 +95,7 @@ function removeFromCart(item) {
     else if (numInternal = (cart.length - 1)){ // thing is last item
       cart.pop()}
     else { // thing is inbetween somewhere
-      var numTemp = numInternal+1;
-      cart = [...cart.slice(0,numInternal), ...cart.slice(numTemp)]}
+      cart = [...cart.slice(0,numInternal), ...cart.slice(numInternal+1)]}
     return cart;
   }
   else {

@@ -82,7 +82,7 @@ function removeFromCart(item) {
   // errors not helping at all.
 
   for (var i = 0; i < cart.length; i++){ // AAAAAAAAAAAAAAAAAAAAa
-    if (cart[i].itemName === item){
+    if (cart[i].itemName = item){
       numInternal = i;
       break
     }

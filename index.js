@@ -13,7 +13,10 @@ function setCart(c) {
 // apparently the above are already done.
 
 function addToCart(item) {
-
+  var objInternal = {
+    a : "a",
+    b : "b",
+  };
 }
 
 function viewCart() {

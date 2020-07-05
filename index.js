@@ -20,6 +20,7 @@ function addToCart(item) {
     itemPrice : numInternal,
   }
   cart.push(objInternal);
+  
   return `${item} has been added to your cart.`
 }
 

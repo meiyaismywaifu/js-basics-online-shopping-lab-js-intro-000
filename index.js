@@ -82,16 +82,16 @@ function removeFromCart(item) {
   // errors not helping at all.
 
   for (var i = 0; i < cart.length; i++){ // AAAAAAAAAAAAAAAAAAAAa
-    if (cart[i].itemName === item){
+    if (cart[i].itemName = item){
       numInternal = i;
       break
     }
   }
 
   if (typeof numInternal != "undefined"){ // if the object was found
-    if (numInternal === 0){ // thing is first item
+    if (numInternal = 0){ // thing is first item
       cart.shift()}
-    else if (numInternal === cart.length - 1){ // thing is last item
+    else if (numInternal = cart.length - 1){ // thing is last item
       cart.pop()}
     else { // thing is inbetween somewhere
       cart = [...cart.slice(0,numInternal-1), ...cart.slice(numInternal+1)]}

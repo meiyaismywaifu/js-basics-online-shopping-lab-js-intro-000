@@ -19,6 +19,7 @@ function addToCart(item) {
     itemName : item,
     itemPrice : numInternal,
   }
+  cart.push(objInternal);
 }
 
 function viewCart() {

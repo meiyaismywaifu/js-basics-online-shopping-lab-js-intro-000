@@ -89,14 +89,9 @@ function removeFromCart(item) {
   }
 
   if (typeof numInternal != "undefined"){ // if the object was found
-    var posBefore = numInternal - 1;
-    var posAfter = numInternal + 1;
-
-    if (numInternal === 0){posBefore = 0;}
-    if (numInternal === cart.length - 1){posAfter = cart.length - 1;}
-
-    cart = [...cart.slice(0,posBefore), ...cart.slice(posAfter)];
-    return cart;
+    if (numInternal = 0){cart = cart.unshift()} // thing is first item
+    else if (numInternal = cart.length - 1){} // thing is last item
+    else{} // thing is inbetween somewhere
   }
   else {
     return "That item is not in your cart.";

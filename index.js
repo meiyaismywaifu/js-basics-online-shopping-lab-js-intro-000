@@ -12,6 +12,7 @@ function setCart(c) {
 
 // apparently the above are already done.
 
+console.log("------------CONSOLE LOG IS HERE");
 function addToCart(item) {
   var numInternal = Math.floor(Math.random()*100) + 1;
     // floor rounds down to integer, random is something between 0.1.
@@ -20,7 +21,7 @@ function addToCart(item) {
     itemPrice : numInternal,
   }
   cart.push(objInternal);
-console.log("------------CONSOLE LOG IS HERE");
+
   return `${item} has been added to your cart.`
 
 }

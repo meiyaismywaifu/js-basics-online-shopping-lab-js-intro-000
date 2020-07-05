@@ -79,7 +79,7 @@ function removeFromCart(item) {
   var numInternal;
 
   for (){
-    
+
   }
   if (typeof numInternal != "undefined"){ // if the object was found
 

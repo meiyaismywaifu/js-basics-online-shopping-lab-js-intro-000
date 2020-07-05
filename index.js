@@ -78,7 +78,7 @@ function removeFromCart(item) {
   // check each object for a match. if no match, say no match. if match, remove.
   var numInternal;
   // return `CART LENGTH IS --- --- ${cart.length}`;
-  //  says cart length is zero. what's going on here.
+  //  says cart length is 0. what's going on here.
 
   for (var i = 0; i < cart.length; i++){ // AAAAAAAAAAAAAAAAAAAAa
     if (cart[i].itemName === item){

@@ -14,7 +14,7 @@ function setCart(c) {
 
 //console.log("------------CONSOLE LOG IS HERE");
 //  oh so stuff out here also gets called.
-// why isn't it calling inside then
+//  why isn't it calling inside then
 function addToCart(item) {
   var numInternal = Math.floor(Math.random()*100) + 1;
     // floor rounds down to integer, random is something between 0.1.
@@ -23,12 +23,11 @@ function addToCart(item) {
     itemPrice : numInternal,
   }
   cart.push(objInternal);
-  console.log("------------CONSOLE LOG IS HERE");
-  //return `${item} has been added to your cart.`
+  return `${item} has been added to your cart.`
 }
 
 function viewCart() {
-  /*var stringInternal;
+  var stringInternal;
   var objInternal;
 
   if (cart.length === 0) {
@@ -41,7 +40,7 @@ function viewCart() {
       //stringInternal = stringInternal + objInternal.itemName + "at $" + objInternal.itemPrice;
       stringInternal = stringInternal + `${cart[i].itemName} at $ ${cart[i].itemPrice}`;
     }
-  }*/
+  }
 
   //console.log(stringInternal);
   //return stringInternal

@@ -78,7 +78,7 @@ function removeFromCart(item) {
   var numInternal;
 
   console.log("------------CONSOLE LOG IS HERE");
-  return "------------CONSOLE LOG IS HERE"
+  return cart[0].itemName;
 
   /*for (var i = 0; i < cart.length; i++){ // AAAAAAAAAAAAAAAAAAAAa
     if (cart[i].itemName === item){

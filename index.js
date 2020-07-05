@@ -41,7 +41,8 @@ function viewCart() {
       //objInternal = cart[i];
       //stringInternal = stringInternal + objInternal.itemName + "at $" + objInternal.itemPrice;
       // oh they want me to use ${}. okay. fine.
-      stringInternal = stringInternal + `${cart[i].itemName} at $ ${cart[i].itemPrice}`;
+      stringInternal = stringInternal + `${cart[i].itemName} at $${cart[i].itemPrice}`;
+        // spaces are counted inside ``s. in this case two adjacent $'s is accurate.'
       numInternal++;
 
       // setup for next item

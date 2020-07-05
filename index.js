@@ -79,6 +79,7 @@ function removeFromCart(item) {
   var numInternal;
   // return `CART LENGTH IS --- --- ${cart.length}`;
   //  says cart length is 0. what's going on here.
+  // errors not helping at all.
 
   for (var i = 0; i < cart.length; i++){ // AAAAAAAAAAAAAAAAAAAAa
     if (cart[i].itemName === item){

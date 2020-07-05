@@ -35,19 +35,24 @@ function viewCart() {
     stringInternal = "Your shopping cart is empty.";
   }
   else {
-    numInternal = 1;
+    numInternal = 1; // this is to match human positioning in array
     stringInternal =  "In your cart, you have ";
     for (var i = 0; i < cart.length; i++) { // AAAAAAAAAAAAAAAA
       //objInternal = cart[i];
       //stringInternal = stringInternal + objInternal.itemName + "at $" + objInternal.itemPrice;
       // oh they want the ${} verion. okay. fine.
+      
       stringInternal = stringInternal + `${cart[i].itemName} at $ ${cart[i].itemPrice}`;
       numInternal++;
-      if (){ // final item has been read, end sentence
+      
+      if (numInternal != cart.length){ // next is not final item
+        
+      }
+      else if () { // next is final item
 
       }
-      else {
-
+      else { // all items read
+        
       }
     }
   }

@@ -14,6 +14,7 @@ function setCart(c) {
 
 //console.log("------------CONSOLE LOG IS HERE");
 //  oh so stuff out here also gets called.
+// why isn't it calling inside then
 function addToCart(item) {
   var numInternal = Math.floor(Math.random()*100) + 1;
     // floor rounds down to integer, random is something between 0.1.

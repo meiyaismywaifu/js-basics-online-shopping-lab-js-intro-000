@@ -65,6 +65,7 @@ function viewCart() {
 
 function total() {
   var numInternal = 0;
+  
   for (var i = 0; i < cart.length; i++){ // AAAAAAAAAAAAAAAAAA
     numInternal = numInternal + parseInt(cart[i].itemPrice);
       // oh yeah can do sequential recall horizontally too. forgot.

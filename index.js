@@ -35,7 +35,7 @@ function viewCart() {
     stringInternal = "Your shopping cart is empty.";
   }
   else {
-    numInternal = 1; // this is to match human positioning in array
+    numInternal = 1; // this is human positioning in array
     stringInternal =  "In your cart, you have ";
     for (var i = 0; i < cart.length; i++) { // AAAAAAAAAAAAAAAA
       //objInternal = cart[i];

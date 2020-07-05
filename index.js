@@ -41,18 +41,18 @@ function viewCart() {
       //objInternal = cart[i];
       //stringInternal = stringInternal + objInternal.itemName + "at $" + objInternal.itemPrice;
       // oh they want the ${} verion. okay. fine.
-      
+
       stringInternal = stringInternal + `${cart[i].itemName} at $ ${cart[i].itemPrice}`;
       numInternal++;
-      
+
       if (numInternal != cart.length){ // next is not final item
-        
+
       }
       else if () { // next is final item
 
       }
       else { // all items read
-        
+
       }
     }
   }

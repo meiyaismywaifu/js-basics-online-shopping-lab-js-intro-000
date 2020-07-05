@@ -77,7 +77,9 @@ function removeFromCart(item) {
   // check each object for a match. if no match, say no match. if match, remove.
   var numInternal;
 
-  for (var i = 0; i < cart.length; i++){ // AAAAAAAAAAAAAAAAAAAAa
+  console.log("------------CONSOLE LOG IS HERE");
+
+  /*for (var i = 0; i < cart.length; i++){ // AAAAAAAAAAAAAAAAAAAAa
     if (cart[i].itemName === item){
       numInternal = i;
       //break
@@ -100,7 +102,7 @@ function removeFromCart(item) {
   }
   else {
     return "That item is not in your cart.";
-  }
+  }*/
 }
 
 function placeOrder(cardNumber) {

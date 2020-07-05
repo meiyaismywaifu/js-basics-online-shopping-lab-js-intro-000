@@ -58,7 +58,8 @@ function viewCart() {
     }
 
   }
-  console.log("------------CONSOLE LOG IS HERE"); // this doesn't print
+  console.log("------------CONSOLE LOG IS HERE"); // this doesn't print.
+    // console.log in any of these methods doesn't print.
   return stringInternal
 }
 

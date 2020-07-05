@@ -96,11 +96,12 @@ function removeFromCart(item) {
       cart.pop()}
     else { // thing is inbetween somewhere
       cart = [...cart.slice(0,numInternal), ...cart.slice(numInternal+1)]}
-    return cart;
+
   }
   else {
     return "That item is not in your cart.";
   }
+      return cart;
 }
 
 function placeOrder(cardNumber) {

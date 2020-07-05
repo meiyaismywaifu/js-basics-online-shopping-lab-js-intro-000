@@ -25,11 +25,21 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var stringInternal
-  if () {
-
+  var stringInternal;
+  var objInternal;
+  
+  if (cart.length === 0) {
+    stringInternal = "Your shopping cart is empty.";
   }
-
+  else {
+    stringInternal =  "In your cart, you have ";
+    for (var i = 0; i < cart.length; i++) { // AAAAAAAAAAAAAAAA
+      //objInternal = cart[i];
+      //stringInternal = stringInternal + objInternal.itemName + "at $" + objInternal.itemPrice;
+      stringInternal = stringInternal + `${cart[i].itemName} at $ ${cart[i].itemPrice}`;
+    }
+  }
+  console.log(stringInternal);
   return stringInternal
 }
 

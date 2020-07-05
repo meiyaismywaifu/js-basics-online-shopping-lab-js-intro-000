@@ -85,7 +85,7 @@ function removeFromCart(item) {
     }
   }
   return "That item is not in your cart"
-  
+
   /*if (typeof numInternal != "undefined"){ // if the object was found
     var posBefore = numInternal - 1;
     var posAfter = numInternal + 1;

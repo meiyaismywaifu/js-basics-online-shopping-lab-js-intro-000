@@ -42,8 +42,8 @@ function viewCart() {
       stringInternal = stringInternal + `${cart[i].itemName} at $ ${cart[i].itemPrice}`;
     }
   }
-
-  //console.log(stringInternal);
+  console.log("------------CONSOLE LOG IS HERE"); // this doesn't print
+  console.log(stringInternal);
   //return stringInternal
 }
 

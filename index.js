@@ -40,6 +40,12 @@ function viewCart() {
       //stringInternal = stringInternal + objInternal.itemName + "at $" + objInternal.itemPrice;
       // oh they want the ${} verion. okay. fine.
       stringInternal = stringInternal + `${cart[i].itemName} at $ ${cart[i].itemPrice}`;
+      if (){ // final item has been read, end sentence
+        
+      }
+      else {
+        
+      }
     }
   }
   console.log("------------CONSOLE LOG IS HERE"); // this doesn't print

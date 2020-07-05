@@ -77,7 +77,7 @@ function removeFromCart(item) {
   // check each object for a match. if no match, say no match. if match, remove.
   var numInternal;
 
-  return "THIS IS THE CART ---" + cart;
+  return "THIS IS THE CART --- " + cart;
   /*for (var i = 0; i < cart.length; i++){ // AAAAAAAAAAAAAAAAAAAAa
     if (cart[i].itemName === item){
       numInternal = i;

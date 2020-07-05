@@ -66,7 +66,7 @@ function viewCart() {
 function total() {
   var numInternal = 0;
   for (var i = 0; i < cart.length; i++){ // AAAAAAAAAAAAAAAAAA
-    numInternal = numInternal + cart[i].itemPrice.parseInt();
+    numInternal = numInternal + parseInt(cart[i].itemPrice);
   }
 
   return numInternal;

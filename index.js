@@ -59,7 +59,6 @@ function viewCart() {
 
   }
   console.log("------------CONSOLE LOG IS HERE"); // this doesn't print
-  console.log(stringInternal);
   return stringInternal
 }
 
@@ -73,6 +72,9 @@ function total() {
 
   return numInternal;
 }
+
+console.log("------------CONSOLE LOG IS HERE");
+console.log(cart[0].itemName);
 
 function removeFromCart(item) {
   // check each object for a match. if no match, say no match. if match, remove.

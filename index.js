@@ -89,8 +89,8 @@ function removeFromCart(item) {
   }
 
   if (typeof numInternal != "undefined"){ // if the object was found
-    if (numInternal = 0){cart = cart.unshift()} // thing is first item
-    else if (numInternal = cart.length - 1){} // thing is last item
+    if (numInternal = 0){cart.shift()} // thing is first item
+    else if (numInternal = cart.length - 1){cart.pop()} // thing is last item
     else{} // thing is inbetween somewhere
   }
   else {

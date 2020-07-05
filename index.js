@@ -13,7 +13,7 @@ function setCart(c) {
 // apparently the above are already done.
 
 function addToCart(item) {
-  var numInternal = Math.floor(Math.random()*10) + 1;
+  var numInternal = Math.floor(Math.random()*100) + 1;
     // floor rounds down to integer, random is something between 0.1.
   var objInternal = {
     itemName : item,

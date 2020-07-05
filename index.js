@@ -22,6 +22,7 @@ function addToCart(item) {
   cart.push(objInternal);
 
   return `${item} has been added to your cart.`
+    console.log("CONSOLE LOG IS HERE");
 }
 
 function viewCart() {
@@ -39,7 +40,7 @@ function viewCart() {
       stringInternal = stringInternal + `${cart[i].itemName} at $ ${cart[i].itemPrice}`;
     }
   }*/
-  console.log("CONSOLE LOG IS HERE");
+
   //console.log(stringInternal);
   //return stringInternal
 }
@@ -55,3 +56,4 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
 
 }
+

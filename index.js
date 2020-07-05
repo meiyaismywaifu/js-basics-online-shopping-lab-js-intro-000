@@ -17,7 +17,7 @@ function addToCart(item) {
     // floor rounds down to integer, random is something between 0.1.
   var objInternal = {
     itemName : item,
-    itemPrice : "b",
+    itemPrice : numInternal,
   }
 }
 

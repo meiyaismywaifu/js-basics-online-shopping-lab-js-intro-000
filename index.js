@@ -43,7 +43,6 @@ function viewCart() {
       // oh they want me to use ${}. okay. fine.
       stringInternal = stringInternal + `${cart[i].itemName} at $${cart[i].itemPrice}`;
         // spaces are counted inside ``s. in this case two adjacent $'s is accurate.'
-      numInternal++;
 
       // setup for next item
       if (numInternal < cart.length - 1){ // next is not final item
@@ -55,6 +54,7 @@ function viewCart() {
       else if (numInternal === cart.length) { // all items read
         stringInternal = stringInternal + ".";
       }
+      numInternal++;
     }
 
   }

@@ -41,10 +41,10 @@ function viewCart() {
       // oh they want the ${} verion. okay. fine.
       stringInternal = stringInternal + `${cart[i].itemName} at $ ${cart[i].itemPrice}`;
       if (){ // final item has been read, end sentence
-        
+
       }
       else {
-        
+
       }
     }
   }

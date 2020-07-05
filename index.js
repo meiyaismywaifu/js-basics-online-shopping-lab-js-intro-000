@@ -27,9 +27,9 @@ function addToCart(item) {
 function viewCart() {
   var stringInternal
   if () {
-    
+
   }
-  
+
   return stringInternal
 }
 

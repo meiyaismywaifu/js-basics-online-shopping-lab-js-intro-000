@@ -49,7 +49,7 @@ function viewCart() {
         stringInternal = stringInternal + ", ";
       }
       else if (numInternal === cart.length - 1) { // next is final item
-        stringInternal = stringInternal + ", and";
+        stringInternal = stringInternal + ", and ";
       }
       else if (numInternal === cart.length) { // all items read
         stringInternal = stringInternal + ".";

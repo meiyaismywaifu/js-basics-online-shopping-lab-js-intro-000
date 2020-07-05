@@ -93,7 +93,7 @@ function removeFromCart(item) {
       posBefore = 0;
     }
     if (numInternal === cart.length - 1){
-
+      posAfter = 0;
     }
 
     cart = [...cart.slice(0,posBefore), ...cart.slice(posAfter)];

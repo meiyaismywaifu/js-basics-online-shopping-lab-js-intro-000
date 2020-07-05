@@ -22,7 +22,7 @@ function addToCart(item) {
     itemPrice : numInternal,
   }
   cart.push(objInternal);
-
+  console.log("------------CONSOLE LOG IS HERE");
   return `${item} has been added to your cart.`
 
 }

@@ -46,13 +46,13 @@ function viewCart() {
 
       // setup for next item
       if (numInternal < cart.length - 1){ // next is not final item
-
+        stringInternal = stringInternal + ", ";
       }
       else if (numInternal === cart.length - 1) { // next is final item
-
+        stringInternal = stringInternal + ", and";
       }
       else if (numInternal === cart.length) { // all items read
-
+        stringInternal = stringInternal + ".";
       }
     }
   }

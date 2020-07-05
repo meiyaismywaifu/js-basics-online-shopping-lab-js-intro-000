@@ -27,7 +27,7 @@ function addToCart(item) {
 function viewCart() {
   var stringInternal;
   var objInternal;
-  
+
   if (cart.length === 0) {
     stringInternal = "Your shopping cart is empty.";
   }

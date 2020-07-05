@@ -96,6 +96,7 @@ function removeFromCart(item) {
     else {
       cart = [...cart.slice(0,numInternal-1), ...cart.slice(numInternal+1)]}
         // thing is inbetween somewhere
+    return cart;
   }
   else {
     return "That item is not in your cart.";

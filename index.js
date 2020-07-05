@@ -55,10 +55,11 @@ function viewCart() {
         stringInternal = stringInternal + ".";
       }
     }
+    
   }
   console.log("------------CONSOLE LOG IS HERE"); // this doesn't print
   console.log(stringInternal);
-  //return stringInternal
+  return stringInternal
 }
 
 function total() {

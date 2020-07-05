@@ -87,7 +87,7 @@ function removeFromCart(item) {
   if (typeof numInternal != "undefined"){ // if the object was found
     var posBefore = numInternal - 1;
     var posAfter = numInternal + 1;
-    cart = [...cart.slice(0,posBefore), ...cart.slice(posAfter)];    
+    cart = [...cart.slice(0,posBefore), ...cart.slice(posAfter)];
     return cart;
   }
   else {

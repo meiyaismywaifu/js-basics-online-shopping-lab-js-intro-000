@@ -29,17 +29,20 @@ function addToCart(item) {
 function viewCart() {
   var stringInternal;
   var objInternal;
+  var numInternal;
 
   if (cart.length === 0) {
     stringInternal = "Your shopping cart is empty.";
   }
   else {
+    numInternal = 1;
     stringInternal =  "In your cart, you have ";
     for (var i = 0; i < cart.length; i++) { // AAAAAAAAAAAAAAAA
       //objInternal = cart[i];
       //stringInternal = stringInternal + objInternal.itemName + "at $" + objInternal.itemPrice;
       // oh they want the ${} verion. okay. fine.
       stringInternal = stringInternal + `${cart[i].itemName} at $ ${cart[i].itemPrice}`;
+      numInternal++;
       if (){ // final item has been read, end sentence
 
       }

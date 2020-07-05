@@ -25,7 +25,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var stringInternal;
+  /*var stringInternal;
   var objInternal;
 
   if (cart.length === 0) {
@@ -38,10 +38,10 @@ function viewCart() {
       //stringInternal = stringInternal + objInternal.itemName + "at $" + objInternal.itemPrice;
       stringInternal = stringInternal + `${cart[i].itemName} at $ ${cart[i].itemPrice}`;
     }
-  }
+  }*/
   console.log("CONSOLE LOG IS HERE");
-  console.log(stringInternal);
-  return stringInternal
+  //console.log(stringInternal);
+  //return stringInternal
 }
 
 function total() {

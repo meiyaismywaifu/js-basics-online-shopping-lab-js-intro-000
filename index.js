@@ -91,12 +91,8 @@ function removeFromCart(item) {
     var posBefore = numInternal - 1;
     var posAfter = numInternal + 1;
 
-    if (numInternal === 0){
-      posBefore = 0;
-    }
-    if (numInternal === cart.length - 1){
-      posAfter = cart.length - 1;
-    }
+    if (numInternal === 0){posBefore = 0;}
+    if (numInternal === cart.length - 1){posAfter = cart.length - 1;}
 
     cart = [...cart.slice(0,posBefore), ...cart.slice(posAfter)];
     return cart;

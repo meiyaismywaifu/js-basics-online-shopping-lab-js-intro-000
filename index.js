@@ -78,11 +78,16 @@ function removeFromCart(item) {
   // check each object for a match. if no match, say no match. if match, remove.
   var numInternal;
 
-  for (){
-
+  for (var i = 0, i < cart.length, i++){
+    if (cart[i].itemName === item){
+      numInternal = i;
+      break
+    }
   }
   if (typeof numInternal != "undefined"){ // if the object was found
-
+    var posBefore = numInternal - 1;
+    var posAfter = numInternal + 1;
+    cart = [...cart.slice(0,posBefore), ...cart.slice(posAfter)];    
     return cart;
   }
   else {

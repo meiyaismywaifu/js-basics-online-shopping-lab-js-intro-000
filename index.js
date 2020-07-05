@@ -40,11 +40,12 @@ function viewCart() {
     for (var i = 0; i < cart.length; i++) { // AAAAAAAAAAAAAAAA
       //objInternal = cart[i];
       //stringInternal = stringInternal + objInternal.itemName + "at $" + objInternal.itemPrice;
-      // oh they want the ${} verion. okay. fine.
+      // oh they want me to use ${}. okay. fine.
 
       stringInternal = stringInternal + `${cart[i].itemName} at $ ${cart[i].itemPrice}`;
       numInternal++;
 
+      // setup for next item
       if (numInternal != cart.length){ // next is not final item
 
       }

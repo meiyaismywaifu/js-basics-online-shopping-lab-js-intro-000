@@ -64,7 +64,12 @@ function viewCart() {
 }
 
 function total() {
+  var numInternal = 0;
+  for (var i = 0; i < cart.length; i++){ // AAAAAAAAAAAAAAAAAA
+    numInternal = numInternal + cart[i].itempPrice.parseInt();
+  }
 
+  return numInternal;
 }
 
 function removeFromCart(item) {

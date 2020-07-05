@@ -10,6 +10,8 @@ function setCart(c) {
   return cart;
 }
 
+// apparently the above are already done.
+
 function addToCart(item) {
 
 }
